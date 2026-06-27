@@ -36,20 +36,28 @@ audit_report.json
 requirements.txt
 README.md
 
-Installation
+OUTPUT
+
+### Consistency Heatmap
+
+![Consistency Heatmap](consistency_heatmap.png)
+
+### Audit Report
+
+json
+{
+  "total_records_checked": 100,
+  "mismatches_found": 2,
+  "consistency_score": "98.0%"
+}
+
+## Installation
 
 1. Clone the repository.
 2. Install the required libraries:
    pip install -r requirements.txt
 3. Configure MySQL database.
 4. Run the Python files.
-
-Output
-
-- Consistency Heatmap
-- JSON Audit Report
-- MySQL CRUD Operations
-- Tkinter GUI
 
 Future Improvements
 
