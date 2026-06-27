@@ -36,6 +36,14 @@ audit_report.json
 requirements.txt
 README.md
 
+## Installation
+
+1. Clone the repository.
+2. Install the required libraries:
+   pip install -r requirements.txt
+3. Configure MySQL database.
+4. Run the Python files.
+
 OUTPUT
 
 ### Consistency Heatmap
@@ -50,14 +58,6 @@ json
   "mismatches_found": 2,
   "consistency_score": "98.0%"
 }
-
-## Installation
-
-1. Clone the repository.
-2. Install the required libraries:
-   pip install -r requirements.txt
-3. Configure MySQL database.
-4. Run the Python files.
 
 Future Improvements
 
